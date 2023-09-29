@@ -3,7 +3,7 @@ name: Build and deploy
 on:
   push:
     branches:
-      - build-and-deploy-action
+      - main
   workflow_dispatch: # Allows the action to be run manually from GitHub UI
 
 jobs:
